@@ -1,0 +1,97 @@
+.contaiFilters {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 184px;
+  /* background-color: #ef233c; */
+}
+
+.contenedor {
+  position: absolute;
+  top: 417px;
+  left: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 1256px;
+  height: 132px;
+  background-color: #4c4a50;
+  border-radius: 32px;
+  padding: 20px;
+}
+
+.botonLimp {
+  border: none;
+  background-color: #ef233c;
+  color: #fff;
+  border-radius: 17px;
+  height: 65px;
+  width: 167px;
+  cursor: pointer;
+  font-size: 17px;
+  align-self: flex-start;
+}
+
+.icon {
+  margin-right: 15px;
+}
+
+#tamaño {
+  width: 197px;
+  font-size: 17px;
+  height: 53px;
+  padding: 15px;
+  border-radius: 17px;
+  font-family: "Open Sans", sans-serif;
+  cursor: pointer;
+  border: none;
+}
+
+#precio {
+  width: 168px;
+  font-size: 17px;
+  height: 53px;
+  padding: 15px;
+  border-radius: 17px;
+  font-family: "Open Sans", sans-serif;
+  color: #212529;
+  cursor: pointer;
+  border: none;
+}
+
+#pais,
+#date1,
+#date2 {
+  width: 213px;
+  font-size: 17px;
+  height: 53px;
+  padding: 15px;
+  border-radius: 17px;
+  font-family: "Open Sans", sans-serif;
+  cursor: pointer;
+  border: none;
+}
+
+.inputs_y_labels {
+  display: flex;
+  flex-direction: column;
+}
+
+.titulo_y_divisor {
+  display: flex;
+  align-items: center;
+}
+.divisor {
+  background-color: #ababab;
+  height: 3px;
+  width: 93px;
+  border-radius: 7px;
+}
+
+div label {
+  font-size: 17px;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  text-align: left;
+  margin: 5px;
+}

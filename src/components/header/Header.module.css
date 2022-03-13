@@ -1,0 +1,106 @@
+.headerProps {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #fff;
+  height: 509px;
+  -webkit-box-shadow: 0px 11px 10px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 11px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  position: relative;
+  top: 0;
+  left: 77px;
+  height: 178px;
+  width: 347px;
+  background-color: #6e41fe;
+  border-bottom-right-radius: 39px;
+  border-bottom-left-radius: 39px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 55px;
+}
+
+.titulo {
+  font-size: 57px;
+  color: #fff;
+  font-family: "Vibur", cursive;
+  height: 70px;
+  font-weight: normal;
+}
+
+h1 img {
+  height: 40px;
+  width: auto;
+  margin-left: 10px;
+  fill: #fff;
+}
+
+/* - - - - - - Animación Logo - - - - - - */
+
+.rotateCenter:hover {
+  -webkit-animation: rotateCenter 0.6s ease-in-out both;
+  animation: rotateCenter 0.6s ease-in-out both;
+}
+
+@-webkit-keyframes rotateCenter {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotateCenter {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+/* - - - - - - - - - - - - - - - - - - - */
+
+.selecciones {
+  display: inline-block;
+  position: absolute;
+  top: 50px;
+  left: 450px;
+  text-align: left;
+  font-family: "Product Sans", sans-serif;
+  display: flex;
+  color: #4c4a50;
+}
+
+.selecciones_icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon,
+.selecciones_text h4 {
+  margin: 5px;
+  font-size: 15px;
+}
+
+.fechas {
+  font-family: "Product Sans", sans-serif;
+  text-align: left;
+  font-size: 12px;
+  display: flex;
+  position: absolute;
+  top: 380px;
+  left: 80px;
+  color: #4c4a50;
+}
+
+.fechas h1 {
+  margin-right: 10px;
+}
